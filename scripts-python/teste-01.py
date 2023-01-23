@@ -12,10 +12,11 @@ print ('Você nasceu em: ', dia,'/', mes,'/', ano)
 #-------------------------------------------------------------------
 print ('Você nasceu no dia ', dia, 'de ', mes, 'de' , ano, '. Correto?')
 #-------------------------------------------------------------------
-'''Crie um script Python que leia dois numeros e tente mostrar a soma entre eles'''
+'''Crie um script Python que leia dois numeros e tente mostrar a 
+soma entre eles'''
 num1 = int(input('Digite o primero numero da soma desejeda: '))
 num2 = int(input('Digite o segundo numero da soma desejeda: '))
-# int(input) 'diz' para o input que o caractere a ser digitado pelo usuário será um número inteiro
+# int(input) 'diz' para o input que os valores adicionados são números inteiros
 num3 = (num1 + num2)
 print(num1, '+', num2, '= ', num3)
 #-------------------------------------------------------------------
