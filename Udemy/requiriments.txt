@@ -1,0 +1,56 @@
+Nota importante sobre Python
+Para realmente aprender sobre Python, você enfrentará um desafio grande para iniciantes, sugiro a leitura abaixo para entender sobre o tema.
+
+
+
+Python é uma linguagem de alto nível, que facilita para você programar códigos complexos. Porém, seu grande "poder" está nas ótimas bibliotecas disponíveis.
+
+Concordamos que essas bibliotecas precisam evoluir, certo? Assim, teremos mais e mais funcionalidades que irão facilitar nossa vida todos os meses.
+
+
+
+E essa evolução das bibliotecas vem com um preço... É comum que os comandos mudem, seja por surgirem novos, ou serem substituídos ou até mesmo que a forma de usá-los se altere.
+
+
+
+Um exemplo
+
+Suponha que você use um comando numpy.sum( ) para somar um vetor de números (iremos aprender sobre isso mais a frente do curso). Pode ocorrer desse comando se tornar numpy.summation( ) no futuro, por algum motivo ou desejo do desenvolvedor do numpy.
+
+
+
+E como superamos esse problema?
+
+Quando desenvolvemos em Python, normalmente usamos o comando abaixo para guardar em um arquivo TXT a versão de todas bibliotecas que usamos (fazemos isso ao final, após desenvolver o código)
+
+pip freeze > requirements.txt
+
+Assim, futuramente, você pode saber qual foi a versão da biblioteca que você usou e instalar aquela versão, evitando erros. A lista estará no arquivo requirements.txt
+
+
+
+E como eu instalo uma versão anterior da biblioteca?
+
+Bem simples, no caso do numpy, por exemplo:
+
+pip install numpy==1.23.1
+
+Onde 1.23.1 é a versão
+
+
+
+E porque estou trazendo esse assunto para a aula?
+
+Você vai observar que alguns comandos usados na aula podem ter mudado, isso pode ocorrer de um mês para o outro.
+
+Optei por não atualizar o código apresentado nem informar a versão da biblioteca que eu usei. Pois isso precisa fazer parte do seu ciclo de aprendizado. 
+
+É muito importante você conseguir fazer adaptações em códigos de outras pessoas, pois a pesquisa na internet será sua principal aliada na sua jornada, e é muito comum você encontrar códigos um pouco desatualizados por aí e precisar fazer os ajustes necessários.
+
+Mas não se preocupe, se surgir algum erro informando que um comando não existe ou está obsoleto, por favor, tente descobrir como superar isso e qual o novo comando que existe.
+
+Se mesmo assim não conseguir superar a dificuldade, pode consultar o Q&A aqui ou entrar em contato comigo.
+
+
+
+Abraços
